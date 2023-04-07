@@ -372,6 +372,10 @@ nav span:nth-of-type(3){left: 1510px;}
   top: -9px;
 }
 
+.active a:hover{
+  color: red;
+}
+
 .active2 a{
   position: relative;
   left: 20px;
@@ -384,6 +388,9 @@ nav span:nth-of-type(3){left: 1510px;}
   position: absolute;
   left: -390px;
   top: 30px;
+}
+.active2 a:hover{
+  color: red;
 }
 
 
@@ -447,12 +454,14 @@ nav span:nth-of-type(3){left: 1510px;}
   font-family: 'Cafe24ClassicType-Regular';
   margin-left: 45px;
   font-size: 40px;
+  color: #111;
 }
 .content2 h2{
   font-family: 'Cafe24ClassicType-Regular';
   margin-left: 20px;
   padding-top: 40px;
   font-size: 24px;
+  color: #fff;
 }
 .content2 i{
   font-size: 34px;
@@ -818,6 +827,8 @@ nav span:nth-of-type(3){left: 1510px;}
 
 
 /* footer_____________________________________________ */
+
+
 
 footer{
   position: relative;
