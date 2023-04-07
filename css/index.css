@@ -271,7 +271,7 @@ nav span:nth-of-type(3){left: 1510px;}
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #000;
+  background: #fff;
   margin: 0 10px;
   cursor: pointer;
 }
@@ -283,9 +283,9 @@ nav span:nth-of-type(3){left: 1510px;}
   position: absolute;
   top: 100%;
   transform: translateY(-50%);
-  left: 10px;
+  left: 0px;
   width: 65px;
-  height: 65px;
+  height: 100px;
   background: url(../image/left-off.png) no-repeat;
 }
 .side_btn .lbtn:hover{background: url(../image/left-on.png) no-repeat;}
@@ -294,9 +294,9 @@ nav span:nth-of-type(3){left: 1510px;}
   position: absolute;
   top: 100%;
   transform: translateY(-50%);
-  right: 10px;
+  right: 0px;
   width: 65px;
-  height: 65px;
+  height: 100px;
   background: url(../image/right-off.png) no-repeat;
 }
 .side_btn .rbtn:hover{background: url(../image/right-on.png) no-repeat;}
