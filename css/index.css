@@ -148,6 +148,7 @@ nav span:nth-of-type(3){left: 1510px;}
   font-weight: 600;
   /* line-height: 50px; ->화살표의 위치가 수직으로 변경되어서 사용하면 안됨*/ 
   padding-top: 12px;
+  transition: 0.35s;
 }
 .gnb>.main>.color{
   background-color: #e9dec5;
@@ -370,16 +371,19 @@ nav span:nth-of-type(3){left: 1510px;}
   position: absolute;
   left: -20px;
   top: -9px;
+  transition: 0.35s;
 }
 
 .active a:hover{
   color: red;
+  transition: 0.35s;
 }
 
 .active2 a{
   position: relative;
   left: 20px;
   color: #cac7c7;
+  transition: 0.35s;
 }
 
 .active2 a:before{
@@ -391,6 +395,7 @@ nav span:nth-of-type(3){left: 1510px;}
 }
 .active2 a:hover{
   color: red;
+  transition: 0.35s;
 }
 
 
@@ -529,6 +534,7 @@ nav span:nth-of-type(3){left: 1510px;}
 .pic .bread0:hover img{
   opacity: 0.3;
   cursor: pointer;
+  transition: 0.35s;
 }
 .pic .bread0:hover p{
   display: inline-block;
@@ -536,6 +542,7 @@ nav span:nth-of-type(3){left: 1510px;}
 .pic .bread1:hover img{
   opacity: 0.3;
   cursor: pointer;
+  transition: 0.35s;
 }
 .pic .bread1:hover p{
   display: inline-block;
@@ -546,6 +553,7 @@ nav span:nth-of-type(3){left: 1510px;}
 }
 .pic .bread2:hover p{
   display: inline-block;
+  transition: 0.35s;
 }
 
 
@@ -796,9 +804,22 @@ nav span:nth-of-type(3){left: 1510px;}
   font-weight: 500;
   z-index: 2000;
 }
-.content3 h1 b{
+
+@keyframes red{
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+.content3 h1 b:first-child{
   font-weight: 900;
   color: red;
+  animation: red 1s infinite;
+}
+.content3 h1 b:last-child{
+  font-weight: 900;
+  color: red;
+  animation: red 1s infinite;
+  animation-delay: 0.5s;
 }
 
 .content3 span{
