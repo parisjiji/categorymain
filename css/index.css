@@ -371,7 +371,6 @@ nav span:nth-of-type(3){left: 1510px;}
   position: absolute;
   left: -20px;
   top: -9px;
-  transition: 0.35s;
 }
 
 .active a:hover{
