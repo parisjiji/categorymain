@@ -161,12 +161,12 @@ $(".slide ul").stop(true,true).animate({marginLeft:"+=355px"},500,function(){
 $(".slide ul li").hover(function(){
   cake = $(this).attr('class');
 /*   console.log(cake) */
-  $(this).find("img").attr({"src":"../image/"+cake+"_on.png"});
+  $(this).find("img").attr({"src":"image/"+cake+"_on.png"});
 
 
 },function(){
   cake = $(this).attr('class');
-  $(this).find("img").attr({"src":"../image/"+cake+".png"});
+  $(this).find("img").attr({"src":"image/"+cake+".png"});
   
 
 })
